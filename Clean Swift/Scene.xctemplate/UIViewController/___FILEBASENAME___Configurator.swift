@@ -27,7 +27,7 @@ struct ___FILEBASENAMEASIDENTIFIER___Configurator {
         let interactor = ___FILEBASENAMEASIDENTIFIER___Interactor()
         interactor.output = presenter
         
-        let router = ___FILEBASENAMEASIDENTIFIER___Router(viewController: viewController, dataSource: interactor, dataDestination: interactor)
+        let router = ___FILEBASENAMEASIDENTIFIER___Router(viewController: viewController)
         
         viewController.output = interactor
         viewController.router = router
