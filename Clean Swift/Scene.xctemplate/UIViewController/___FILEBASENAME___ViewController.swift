@@ -8,7 +8,6 @@ class ___FILEBASENAMEASIDENTIFIER___ViewController: UIViewController {
     
     var output: ___FILEBASENAMEASIDENTIFIER___ViewControllerOutput!
     var router: ___FILEBASENAMEASIDENTIFIER___Router!
-    @IBOutlet var view: ___FILEBASENAMEASIDENTIFIER___View! // TODO: hook this up with view in storyboard
     
     override func awakeFromNib() {
         super.awakeFromNib()
