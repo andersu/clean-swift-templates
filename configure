@@ -51,3 +51,16 @@ cp Clean\ Swift/$viewModel/$viewModelFile Clean\ Swift/Scene.xctemplate/$view
 cp Clean\ Swift/$viewModel/$viewModelFile Clean\ Swift/Scene.xctemplate/$table
 cp Clean\ Swift/$viewModel/$viewModelFile Clean\ Swift/Scene.xctemplate/$collection
 
+## ClassView.xctemplate
+classView="ClassView.xctemplate"
+classViewFile="___FILEBASENAME___View.swift"
+cp Clean\ Swift/$classView/$classViewFile Clean\ Swift/Scene.xctemplate/$view
+cp Clean\ Swift/$classView/$classViewFile Clean\ Swift/Scene.xctemplate/$table
+cp Clean\ Swift/$classView/$classViewFile Clean\ Swift/Scene.xctemplate/$collection
+
+## XibView.xctemplate
+xibView="XibView.xctemplate"
+xibViewFile="___FILEBASENAME___View.xib"
+cp Clean\ Swift/$xibView/$xibViewFile Clean\ Swift/Scene.xctemplate/$view
+cp Clean\ Swift/$xibView/$xibViewFile Clean\ Swift/Scene.xctemplate/$table
+cp Clean\ Swift/$xibView/$xibViewFile Clean\ Swift/Scene.xctemplate/$collection

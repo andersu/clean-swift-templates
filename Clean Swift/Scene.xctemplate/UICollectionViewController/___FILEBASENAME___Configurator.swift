@@ -1,15 +1,6 @@
-//
-//  ___FILENAME___
-//  ___PROJECTNAME___
-//
-//  Created by ___FULLUSERNAME___ on ___DATE___.
-//  Copyright (c) ___YEAR___ ___ORGANIZATIONNAME___. All rights reserved.
-//
-
 import UIKit
 
 struct ___FILEBASENAMEASIDENTIFIER___Configurator {
-    // MARK: Object lifecycle
     
     static let sharedInstance = ___FILEBASENAMEASIDENTIFIER___Configurator()
     
@@ -17,11 +8,8 @@ struct ___FILEBASENAMEASIDENTIFIER___Configurator {
         // Enforce Singleton
     }
     
-    // MARK: Configuration
-    
     func configure(viewController: ___FILEBASENAMEASIDENTIFIER___ViewController) {
-        let viewModel = ___FILEBASENAMEASIDENTIFIER___ViewModel()
-        let presenter = ___FILEBASENAMEASIDENTIFIER___Presenter(viewModel: viewModel)
+        let presenter = ___FILEBASENAMEASIDENTIFIER___Presenter()
         presenter.output = viewController
         
         let interactor = ___FILEBASENAMEASIDENTIFIER___Interactor()

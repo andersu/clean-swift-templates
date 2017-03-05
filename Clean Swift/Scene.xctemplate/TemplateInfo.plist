@@ -118,6 +118,20 @@
 		</dict>
 		<dict>
 			<key>Default</key>
+			<string>___VARIABLE_sceneName:identifier___View</string>
+			<key>Description</key>
+			<string>The view name</string>
+			<key>Identifier</key>
+			<string>viewName</string>
+			<key>Name</key>
+			<string>View Name:</string>
+			<key>Required</key>
+			<true/>
+			<key>Type</key>
+			<string>static</string>
+		</dict>
+		<dict>
+			<key>Default</key>
 			<string>UIViewController</string>
 			<key>Description</key>
 			<string>What view controller class to subclass for the new scene</string>

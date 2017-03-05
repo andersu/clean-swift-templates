@@ -1,11 +1,3 @@
-//
-//  ___FILENAME___
-//  ___PROJECTNAME___
-//
-//  Created by ___FULLUSERNAME___ on ___DATE___.
-//  Copyright (c) ___YEAR___ ___ORGANIZATIONNAME___. All rights reserved.
-//
-
 import UIKit
 
 protocol ___FILEBASENAMEASIDENTIFIER___ViewControllerOutput {
@@ -16,6 +8,7 @@ class ___FILEBASENAMEASIDENTIFIER___ViewController: UIViewController {
     
     var output: ___FILEBASENAMEASIDENTIFIER___ViewControllerOutput!
     var router: ___FILEBASENAMEASIDENTIFIER___Router!
+    @IBOutlet var view: ___FILEBASENAMEASIDENTIFIER___View! // TODO: hook this up with view in storyboard
     
     override func awakeFromNib() {
         super.awakeFromNib()
@@ -24,10 +17,15 @@ class ___FILEBASENAMEASIDENTIFIER___ViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        
     }
 }
 
 
 extension ___FILEBASENAMEASIDENTIFIER___ViewController: ___FILEBASENAMEASIDENTIFIER___PresenterOutput {
     
+}
+
+extension ___FILEBASENAMEASIDENTIFIER___ViewController: ___FILEBASENAMEASIDENTIFIER___ViewDelegate {
+
 }
