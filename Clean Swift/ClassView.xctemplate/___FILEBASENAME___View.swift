@@ -9,7 +9,4 @@ class ___FILEBASENAMEASIDENTIFIER___View : NibLoadingView {
     fileprivate var viewModel = ___FILEBASENAMEASIDENTIFIER___ViewModel()
     weak var delegate: ___FILEBASENAMEASIDENTIFIER___ViewDelegate!
     
-    override func awakeFromNib() {
-        super.awakeFromNib()
-    }
 }
